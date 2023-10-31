@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: #3fec30;
+    padding: 10px;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#show-participants {
+    margin-top: 20px;
+}
+
+#participants-list {
+    margin: 20px;
+}

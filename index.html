@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Futsal Santa Luzia</title>
+</head>
+<body>
+    <h1>Confirmação de Participação</h1>
+    <h2>FUTEBOL DA SANTA LUZIA</h2>
+    <form id="participation-form">
+        <label for="player-name">Nome do Jogador:</label>
+        <input type="text" id="player-name" required>
+        <button type="button" onclick="confirmParticipation()">Confirmar Participação</button>
+    </form>
+
+    <button id="show-participants" onclick="showParticipants()">Mostrar Participantes</button>
+    <button id="draw-teams" onclick="drawTeams()">Sortear Times A e B</button>
+    <button id="clear-storage" onclick="clearLocalStorage()">Limpar</button>
+
+    <div id="participants-list"></div>
+
+    <div id="team-a"></div>
+    <div id="team-b"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
